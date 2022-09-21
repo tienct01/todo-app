@@ -1,0 +1,15 @@
+.detail-area .todo-area, .detail-area .done-area {
+    background-color: #f5f6fa;
+    height: 400px;
+    overflow-y: scroll;
+}
+.detail-area .todo-area {
+    float: left;
+    width: 50%;
+    border-right: 1px solid #000;
+}
+.detail-area .done-area {
+    float: left;
+    width: 50%;
+    border-left: 1px solid #000;
+}

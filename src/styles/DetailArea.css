@@ -1,0 +1,45 @@
+.detail-area {
+    margin-top: 25px;
+    position: relative;
+}
+.vl {
+    position: absolute;
+    display: block;
+    content: "";
+    border: 1px solid #000;
+    left: 50%;
+    height: 400px;
+}
+.detail-area .column-title::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.detail-area .column-title {
+    border: 2px solid #000;
+}
+.detail-area .column-title .todo, .detail-area .column-title .done{
+    width: 50%;
+    height: 35px;
+    line-height: 31px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.detail-area .column-title .todo {
+    background-color: #e74c3c;
+}
+.detail-area .column-title .done {
+    background-color: #27ae60;
+}
+
+.detail-area .list {
+    border: 2px solid #000;
+    border-top: none;
+}
+.detail-area .list::after {
+    content: "";
+    clear: both;
+    display: block;
+}

@@ -1,0 +1,5 @@
+.detail-area .todo-area .work-item .todo-item {
+    color: #222;
+    text-decoration: line-through;
+    font-style: italic;
+}
